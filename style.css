@@ -1,0 +1,353 @@
+.nav-box{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+    /* background-color: cadetblue; */
+    /* position:relative; */
+   
+
+}
+.logo{
+    height: 50px !important;
+    width: 110px !important;
+    background-size: cover;
+    background-position: center;
+
+}
+.logo-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(200, 43, 43); */
+}
+.ul-box{
+ width: 800px ; 
+ font-size: 22px;
+ 
+ list-style: none; 
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+}
+.login-btn{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CAA892;
+    border-radius: 20px  0px 20px 0px ;
+
+}
+.nav-btn>.fa-solid{
+    height: auto;
+    width: auto;
+}
+/* ////////section-one///////// */
+.sec-one{
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.info-box{
+    /* height: 380px; */
+    padding-bottom: 50px;
+/* background-color: brown; */
+}
+.info-box>h6 ,p{
+    color: #646464;
+}
+.info-box>h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: #212121;
+
+}
+.info-box-btn{
+height: auto;
+font-size: 20px;
+font-weight: 400;
+background-color: #37806B;
+color: #ffffff;
+padding:3px 20px 3px 20px;
+border-radius: 20px 0px 20px 0px;
+
+
+}
+
+.img-sec-one{
+    height: 400px;
+     
+}
+/* ///////////section-two/////// */
+.sec-two{
+    padding: 20PX;
+    /* background-color: rgb(60, 209, 41); */
+}
+.sect-tital{
+    height: 150px !important;
+    /* background-color: rgb(132, 5, 161); */
+
+}
+.sect-tital>p{
+font-size: 20px;
+font-weight: 200;
+color: #646464;
+}
+.sect-tital>h5{
+    font-size: 40px;
+    font-weight: 400;
+    color: #212121;
+    margin-top: -10px ;
+}
+.scroll-box{
+    display: flex;
+    overflow-x:auto;
+    /* background-color: #efebeb; */
+    gap: 150px;
+    padding: 40px;
+
+
+}
+.scroll-cad{
+min-height: 200px;
+min-width: 380px;
+border-radius: 0px 40px 0px 40px;
+box-shadow: 7px 7px 20px #646464;
+gap: 20px;
+border: 2px solid black;
+/* background-color: aquamarine; */
+
+padding: 15px;
+padding-top: 20px;
+
+}
+.cadimg-info{
+    /* background-color: cadetblue; */
+    justify-content: space-around;
+}
+.scroll-cad:hover{
+    background-color: #CAA892;
+    color: #FFFFFF;
+}
+.scroll-cad:hover>.scroll-cad-info>p{
+    color: #ffffff;
+}
+
+
+.icon-box>img{
+width:90px;
+height:50px;
+/* background-color: rgb(168, 110, 23); */
+
+object-position:center;
+/* object-fit:cover; */
+}
+.scroll-cad-info{
+    height: 150px;
+    width: auto;
+    /* background-color: darkolivegreen; */
+    display: flex !important;
+    justify-content: end !important;
+
+}
+.scroll-box::-webkit-scrollbar{
+height: 0;
+}
+/* //////////////////////sect-three  ///////////////// */
+.sect-three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* //////////////sect-four///////////////// */
+.sect-four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.info-box>h2{
+  
+    font-size: 150px;
+    margin: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU-hbRqO37-IDXphJE03fOxXWl6FviJG3vdQ&s);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.box{
+    text-align: center;
+
+}
+.sect-four>.sect-four-tital{
+font-size: 10px;
+}
+/* ///////////////////////Work detal/////////////// */
+
+.work-box{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e088;
+
+
+}
+.work-box-tital{
+    /* height: 100px; */
+    font-size: 30px;
+    font-weight:500 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: #CAA892; */
+}
+.nubar-info{
+    height: 200px;
+    /* background-color: darkgreen; */
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.nubar-box{
+    height: 100px;
+    width: 100px;
+    border-radius: 0px 25px 0px 25px;
+    /* background-color: grey; */
+   text-align: center;
+   margin-top: 0px;
+   box-shadow: 7px 7px 10px #646464;
+    
+
+}
+.nubar-box>.nubar{
+    margin-top: 15px;
+
+}
+.nubar-info-img1{
+height: 80px;
+width: 100px;
+margin-top: 50px;
+
+}
+.nubar-box-two{
+    margin-top: 80px;
+
+}
+
+/* ///////////////////blog-section///////////// */
+
+.blog-mena-box{
+    padding-top: 70px;
+   
+    justify-content: space-around;
+   
+    background-color: #F8F8F8;
+}
+.blog-tital{
+    text-align: center;
+}
+.blog-cad{  
+        
+    /* background-color: #d55a18; */
+    justify-content: space-around;
+}
+
+.blog-cad-one{
+    height:auto;
+    /* background-color: #375480; */
+
+}
+.blog-cad-one>img{
+   height: 300px;
+   width: auto; 
+   
+}
+/* ////////////////emali box///////////////////////// */
+.signUP-box{
+    /* background-color: crimson; */
+    justify-content: center;
+
+}
+
+    
+
+
+.signUP-box >h4,p{
+    text-align: center;
+
+}
+.input-box{
+justify-content: center;
+}
+ 
+.input-box >input{
+    height: 35px;
+    border-radius: 10px 0px 0px 0px;
+    background-color: #bab4b491;
+
+}
+.input-box>.input-btn{
+    border-radius: 0px 0px 10px 0px; 
+    background-color: #37806B;
+    color: #FFFFFF;
+}
+/* ///////////////////////footer/////////////////////// */
+.footer-box{
+background-color:#F8F8F8;
+justify-content: center;
+
+
+}
+
+.footer-logo{
+    /* background-color: aquamarine; */
+    height: 160px;
+}
+.footer-logo>img{
+    height: 40px;
+}
+.footer-logo>p{
+    font-size: 15px;
+    color: #646464;
+    margin-top:-40px !important ;
+}
+
+
+.footer-link{
+    /* background-color: beige; */
+    height: 200px;
+}
+.company{
+    /* background-color: blue; */
+    height: 200px;
+}
+.contact{
+    /* background-color: burlywood; */
+    height: 200px;
+}
+.follow{
+    background-color: rgb(227, 217, 73);
+    height: 200px;
+}
+ul>li{
+    list-style: none;
+    padding-top: 8px;
+    color: #646464;
+}

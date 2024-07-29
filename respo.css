@@ -1,0 +1,31 @@
+@media (max-width:768px){
+      
+  .menu{
+    height: auto;
+    width: 200px !important;;
+    background-color: #ffffff;
+    border-radius: 0px 25px 0px 25px;
+    box-shadow: 7px 7px 10px #646464;
+    transition: 0.8s;
+    transform: translate(0px, -490px) !important;
+   
+  }  
+  .ul-box{
+    
+    flex-direction: column;
+        position: relative;
+        gap:20px ;
+        display: flex;
+  } 
+  .reyal{
+    transform: translate(0px,0px) !important;
+  }
+}
+
+@media (max-width:425px){
+  .scroll-cad{
+    min-height:235px;
+    min-width: 250px;
+  }
+
+}
